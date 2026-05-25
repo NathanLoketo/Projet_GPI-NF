@@ -15,7 +15,7 @@ The script:
 - bins the image to make the computation faster;
 - normalizes and denoises the image;
 - creates a 2D reference projection from a PDB structure;
-- compares the reference with the image using NCC;
+- compares the reference with the image using NCC (top view only);
 - detects particles from the NCC result;
 - displays the analyzed image with squares around detected particles;
 - displays a grid containing the detected particles individually.
