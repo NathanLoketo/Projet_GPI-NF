@@ -69,4 +69,28 @@ A lower value keeps more detail, but the script will be slower.
 PAD_WIDTH = 25
 ```
 
-This controls the padding added around the image before particle detection.  
+This controls the padding added around the image before particle detection. 
+
+## Save individual particle images
+
+The script can optionally save each detected particle as a separate `.png` image.
+
+To activate this option, change this parameter at the beginning of the script:
+
+```python
+SAVE_INDIVIDUAL_PARTICLES = True
+```
+
+If you do not want to save individual particle images, keep:
+
+```python
+SAVE_INDIVIDUAL_PARTICLES = False
+```
+
+The images are saved in a folder defined by:
+
+```python
+PARTICLE_OUTPUT_FOLDER = "detected_particles"
+```
+
+This folder will be created in the directory from which you run the script.
