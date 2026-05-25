@@ -50,7 +50,7 @@ Set `USE_CROP = True` to test the detection faster on a cropped image.
 Set `USE_CROP = False` to run the detection on the full image.
 
 ```python
-PARTICLE_THRESHOLD = 0.36
+PARTICLE_THRESHOLD = 0.35
 ```
 
 This controls the detection threshold.  
